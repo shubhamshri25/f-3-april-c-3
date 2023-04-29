@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  border-bottom: 2px solid white;
+  padding: 20px;
+}
+
+ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+div {
+  margin-left: 10rem;
+  padding: 2rem;
+}
+
+#signup {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  margin: 5px;
+  margin-left: 15px;
+}
+
+#signup-form {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 2rem;
+}
+
+label input {
+  display: block;
+  color: white;
+}
+
+input {
+  margin: 2px;
+  width: 70%;
+  padding: 5px;
+  outline: none;
+}
+
+#signup-btn {
+  display: block;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  margin-top: 8px;
+  width: 150px;
+  margin-left: 33px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+#error-div {
+  display: none;
+  margin: 10px;
+}
+
+#profile-div {
+  margin: 1rem;
+  padding: 15px;
+}
+
+#logout {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  margin-top: 8px;
+  width: 150px;
+  cursor: pointer;
+}
